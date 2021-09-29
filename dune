@@ -1,0 +1,6 @@
+(executable
+  (name test)
+  (preprocess
+    (staged_pps
+      ppx_deriving.show
+      ppx_import)))
